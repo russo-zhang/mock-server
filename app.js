@@ -1,7 +1,7 @@
 // server.js
 const jsonServer = require('json-server')
-const db = require('./db.js')
-const routes = require('./routes.js')
+const db = require('./mock/db')
+const routes = require('./mock/routes.js')
 const port = 3000;
 
 const server = jsonServer.create()
